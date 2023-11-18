@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: antiquewhite;
+}
+.colorPropio{
+    background-color: black;
+}
+.nav{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+}
+.menuTexto{
+    color: #ec5587;
+}
+.menuTexto:hover{
+    background-color: #ec5587;
+    color: black;
+    border-radius: 40%;
+}
+.logo{
+    color: #ec5587;
+    text-decoration: none;
+    padding: 10px;
+}
+.portada{
+    width: 800px;
+    margin: 10px auto;
+}
+.pie{
+    background-color: black;
+    color: #ec5587;
+    text-align: center;
+}
+.instagram, .tiktok{
+    width: 75px;
+    margin: 5px auto;
+    padding: 20px;
+}
