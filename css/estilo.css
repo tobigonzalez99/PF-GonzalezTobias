@@ -37,6 +37,55 @@ body{
     width: 800px;
     margin: 10px auto;
 }
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+.formulario{
+    width: 800px;
+    margin: 10px auto;
+    border: 1px solid;
+    padding: 10px;
+}
+.boton{
+    background-color: #f8e0c3;
+    border: 1px solid;
+}
+.boton:hover{
+    background-color: #fedcb2;
+    border: 1px solid;
+}
+.productos{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fondoProducto{
+    background-color: antiquewhite;
+}
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.galeria{
+    width: 300px;
+    height: 300px;
+    border: double #ffffff;
+    opacity: 0.5;
+}
+.galeria:hover{
+    opacity: 1;
+    border: white solid 2px;
+}
 .pie{
     background-color: black;
     color: #da84cc;
