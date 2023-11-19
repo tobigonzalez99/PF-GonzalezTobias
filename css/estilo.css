@@ -34,7 +34,7 @@ body{
     font-style: italic;
 }
 .portada{
-    width: 800px;
+    width: 70vw;
     margin: 10px auto;
 }
 h2{
@@ -48,7 +48,7 @@ ul{
     list-style-type: none;
 }
 .formulario{
-    width: 800px;
+    width: 85vw;
     margin: 10px auto;
     border: 1px solid;
     padding: 10px;
@@ -95,4 +95,15 @@ ul{
     width: 75px;
     margin: 5px auto;
     padding: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .formulario{
+        width: 95vw;
+    }
+    .portada{
+        width: 100vw;
+    }
 }
