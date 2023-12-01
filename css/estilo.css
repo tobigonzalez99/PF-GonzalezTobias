@@ -15,6 +15,15 @@ body{
     justify-content: space-around !important;
     align-items: center !important;
 }
+.menuHamburguesa{
+    background-color: #da84cc;
+    border-radius: 10px;
+}
+.menuHamburguesa:hover{
+    background-color: black;
+    border: 2px solid #da84cc;
+    border-radius: 10px;
+}
 .menuTexto{
     color: #da84cc;
 }
