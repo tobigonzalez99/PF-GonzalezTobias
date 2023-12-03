@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: antiquewhite;
+    .nav{
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        .colorPropio{
+            background-color: black;            
+        }
+        .logo{
+            width: 100px;
+            margin: 0 20px 0 20px;
+            color: #da84cc;
+            text-decoration: none;
+            padding: 10px;
+            font-family: 'Patua One', serif !important;
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+        .menuHamburguesa{
+            background-color: #da84cc;
+            border-radius: 10px;
+            &:hover{
+                background-color: black;
+                border: 2px solid #da84cc;
+                border-radius: 10px;
+            }
+        }
+        ul{
+            text-align: center;
+            list-style-type: none;
+            li{
+                .menuTexto{
+                    color: #da84cc;
+                    &:hover{
+                        background-color: #da84cc;
+                        color: black;
+                        border-radius: 40%;
+                    }
+                }
+            }
+        }
+    }
+    .portada{
+        width: 70vw;
+        margin: 10px auto;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .formulario{
+        width: 85vw;
+        margin: 10px auto;
+        border: 1px solid;
+        padding: 10px;
+    }
+    .boton{
+        background-color: #f8e0c3;
+        border: 1px solid;
+        &:hover{
+            background-color: #fedcb2;
+            border: 1px solid;
+        }
+    }
+    .productos{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .fondoProducto{
+            background-color: antiquewhite;
+        }
+    }
+    .fotos{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        .galeria{
+            width: 300px;
+            height: 300px;
+            border: double #ffffff;
+            opacity: 0.5;
+            &:hover{
+                opacity: 1;
+                border: white solid 2px;
+            }
+        }
+    }
+    .pie{
+        background-color: black;
+        color: #da84cc;
+        text-align: center;
+        .instagram, .tiktok{
+            width: 75px;
+            margin: 5px auto;
+            padding: 20px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .formulario{
+        width: 95vw;
+    }
+    .portada{
+        width: 100vw;
+    }
+}
