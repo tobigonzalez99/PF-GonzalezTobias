@@ -1,3 +1,6 @@
+$rosa: #da84cc;
+$colorBoton: #f8e0c3;
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +20,7 @@ body{
     .logo{
         width: 100px;
         margin: 0 20px 0 20px;
-        color: #da84cc;
+        color: $rosa;
         text-decoration: none;
         padding: 10px;
         font-family: 'Patua One', serif !important;
@@ -25,11 +28,11 @@ body{
         font-style: italic;
     }
     .menuHamburguesa{
-        background-color: #da84cc;
+        background-color: $rosa;
         border-radius: 10px;
         &:hover{
             background-color: black;
-            border: 2px solid #da84cc;
+            border: 2px solid $rosa;
             border-radius: 10px;
         }
     }
@@ -38,9 +41,9 @@ body{
         list-style-type: none;
         li{
             .menuTexto{
-                color: #da84cc;
+                color: $rosa;
                 &:hover{
-                    background-color: #da84cc;
+                    background-color: $rosa;
                     color: black;
                     border-radius: 40%;
                 }
@@ -65,7 +68,7 @@ p{
     padding: 10px;
 }
 .boton{
-    background-color: #f8e0c3;
+    background-color: $colorBoton;
     border: 1px solid;
     &:hover{
         background-color: #fedcb2;
@@ -99,7 +102,7 @@ p{
 }
 .pie{
     background-color: black;
-    color: #da84cc;
+    color: $rosa;
     text-align: center;
     .instagram, .tiktok{
         width: 75px;
