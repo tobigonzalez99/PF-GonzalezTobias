@@ -11,7 +11,7 @@ body {
 
 .nav {
   display: flex !important;
-  justify-content: space-around !important;
+  justify-content: end !important;
   align-items: center !important;
 }
 .nav .colorPropio {
