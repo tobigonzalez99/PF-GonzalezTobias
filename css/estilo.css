@@ -8,15 +8,16 @@ body {
   font-family: "Cabin", sans-serif;
   background-color: antiquewhite;
 }
-body .nav {
+
+.nav {
   display: flex !important;
   justify-content: space-around !important;
   align-items: center !important;
 }
-body .nav .colorPropio {
+.nav .colorPropio {
   background-color: black;
 }
-body .nav .logo {
+.nav .logo {
   width: 100px;
   margin: 0 20px 0 20px;
   color: #da84cc;
@@ -26,82 +27,90 @@ body .nav .logo {
   font-size: 1.5rem;
   font-style: italic;
 }
-body .nav .menuHamburguesa {
+.nav .menuHamburguesa {
   background-color: #da84cc;
   border-radius: 10px;
 }
-body .nav .menuHamburguesa:hover {
+.nav .menuHamburguesa:hover {
   background-color: black;
   border: 2px solid #da84cc;
   border-radius: 10px;
 }
-body .nav ul {
+.nav ul {
   text-align: center;
   list-style-type: none;
 }
-body .nav ul li .menuTexto {
+.nav ul li .menuTexto {
   color: #da84cc;
 }
-body .nav ul li .menuTexto:hover {
+.nav ul li .menuTexto:hover {
   background-color: #da84cc;
   color: black;
   border-radius: 40%;
 }
-body .portada {
+
+.portada {
   width: 70vw;
   margin: 10px auto;
 }
-body h2 {
+
+h2 {
   text-align: center;
 }
-body p {
+
+p {
   text-align: center;
 }
-body .formulario {
+
+.formulario {
   width: 85vw;
   margin: 10px auto;
   border: 1px solid;
   padding: 10px;
 }
-body .boton {
+
+.boton {
   background-color: #f8e0c3;
   border: 1px solid;
 }
-body .boton:hover {
+.boton:hover {
   background-color: #fedcb2;
   border: 1px solid;
 }
-body .productos {
+
+.productos {
   margin-left: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-body .productos .fondoProducto {
+.productos .fondoProducto {
   background-color: antiquewhite;
 }
-body .fotos {
+
+.fotos {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
-body .fotos .galeria {
+.fotos .galeria {
   width: 300px;
   height: 300px;
   border: double #ffffff;
   opacity: 0.5;
 }
-body .fotos .galeria:hover {
+.fotos .galeria:hover {
   opacity: 1;
   border: white solid 2px;
 }
-body .pie {
+
+.pie {
   background-color: black;
   color: #da84cc;
   text-align: center;
 }
-body .pie .instagram, body .pie .tiktok {
+.pie .instagram, .pie .tiktok {
   width: 75px;
   margin: 5px auto;
   padding: 20px;
