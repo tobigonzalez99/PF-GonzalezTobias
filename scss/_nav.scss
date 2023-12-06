@@ -1,10 +1,5 @@
 .nav{
-    display: flex !important;
-    justify-content: end !important;
-    align-items: center !important;
-    .colorPropio{
         background-color: $bg2;            
-    }
     .logo{
         width: 100px;
         height: 100px;
@@ -13,7 +8,7 @@
         color: $rosa;
         text-decoration: none;
         padding: 10px;
-        font-family: 'Patua One', serif !important;
+        font-family: 'Patua One', serif;
         font-size: 1.5rem;
         font-style: italic;
     }
@@ -27,6 +22,9 @@
         }
     }
     ul{
+        display: flex;
+        justify-content: end;
+        width: 100%;
         text-align: center;
         list-style-type: none;
         li{

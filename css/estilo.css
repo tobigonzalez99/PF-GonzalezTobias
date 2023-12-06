@@ -24,11 +24,6 @@ body .boton:hover {
 }
 
 .nav {
-  display: flex !important;
-  justify-content: end !important;
-  align-items: center !important;
-}
-.nav .colorPropio {
   background-color: #000000;
 }
 .nav .logo {
@@ -39,7 +34,7 @@ body .boton:hover {
   color: #da84cc;
   text-decoration: none;
   padding: 10px;
-  font-family: "Patua One", serif !important;
+  font-family: "Patua One", serif;
   font-size: 1.5rem;
   font-style: italic;
 }
@@ -53,6 +48,9 @@ body .boton:hover {
   border-radius: 10px;
 }
 .nav ul {
+  display: flex;
+  justify-content: end;
+  width: 100%;
   text-align: center;
   list-style-type: none;
 }
@@ -71,7 +69,7 @@ body .boton:hover {
 }
 
 .contenidoStand {
-  list-style-type: none !important;
+  list-style-type: none;
 }
 
 .productos {
