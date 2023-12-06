@@ -1,0 +1,43 @@
+.nav{
+    display: flex !important;
+    justify-content: end !important;
+    align-items: center !important;
+    .colorPropio{
+        background-color: $bg2;            
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 0 20px 0 20px;
+        color: $rosa;
+        text-decoration: none;
+        padding: 10px;
+        font-family: 'Patua One', serif !important;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+    .menuHamburguesa{
+        background-color: $rosa;
+        border-radius: 10px;
+        &:hover{
+            background-color: $bg2;
+            border: 2px solid $rosa;
+            border-radius: 10px;
+        }
+    }
+    ul{
+        text-align: center;
+        list-style-type: none;
+        li{
+            .menuTexto{
+                color: $rosa;
+                &:hover{
+                    background-color: $rosa;
+                    color: $bg2;
+                    border-radius: 40%;
+                }
+            }
+        }
+    }
+}

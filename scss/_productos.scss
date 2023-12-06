@@ -1,0 +1,9 @@
+.productos{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .fondoProducto{
+        background-color: $bg1;
+    }
+}

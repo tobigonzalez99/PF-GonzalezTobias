@@ -1,0 +1,13 @@
+.pie{
+    background-color: $bg2;
+    color: $rosa;
+    text-align: center;
+    .instagram, .tiktok{
+        width: 75px;
+        margin: 5px auto;
+        padding: 20px;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}

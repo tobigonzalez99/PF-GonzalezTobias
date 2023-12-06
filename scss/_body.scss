@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: $bg1;
+    h2{
+        text-align: center;
+        p{
+            text-align: center;
+        }
+    }
+    .boton{
+        background-color: $colorBoton;
+        border: 1px solid;
+        &:hover{
+            background-color: #fedcb2;
+            border: 1px solid;
+        }
+    }
+}
