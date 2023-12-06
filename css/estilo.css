@@ -6,7 +6,7 @@
 
 body {
   font-family: "Cabin", sans-serif;
-  background-color: antiquewhite;
+  background-color: #faebd7;
 }
 
 .nav {
@@ -15,7 +15,7 @@ body {
   align-items: center !important;
 }
 .nav .colorPropio {
-  background-color: black;
+  background-color: #000000;
 }
 .nav .logo {
   width: 100px;
@@ -34,7 +34,7 @@ body {
   border-radius: 10px;
 }
 .nav .menuHamburguesa:hover {
-  background-color: black;
+  background-color: #000000;
   border: 2px solid #da84cc;
   border-radius: 10px;
 }
@@ -47,7 +47,7 @@ body {
 }
 .nav ul li .menuTexto:hover {
   background-color: #da84cc;
-  color: black;
+  color: #000000;
   border-radius: 40%;
 }
 
@@ -87,7 +87,7 @@ p {
   flex-wrap: wrap;
 }
 .productos .fondoProducto {
-  background-color: antiquewhite;
+  background-color: #faebd7;
 }
 
 .fotos {
@@ -108,7 +108,7 @@ p {
 }
 
 .pie {
-  background-color: black;
+  background-color: #000000;
   color: #da84cc;
   text-align: center;
 }
