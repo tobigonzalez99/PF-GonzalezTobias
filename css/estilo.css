@@ -70,6 +70,10 @@ body .boton:hover {
   margin: 10px auto;
 }
 
+.contenidoStand {
+  list-style-type: none !important;
+}
+
 .productos {
   margin-left: 30px;
   display: flex;
